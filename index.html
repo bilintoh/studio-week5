@@ -38,7 +38,7 @@
   <div id="map"></div>
   <div id="instructions">
     <h2>🚰 Instructions</h2>
-    <p>Click anywhere on the map to see water sites within a 500m radius. Stand alone water sites will be highlighted in red.</p>
+    <p>Click anywhere on the map to see water sites within a 500m radius. Stand alone water sites will be highlighted in blue.</p>
   </div>
   <script>
     // Data showing water points - replace the dummy URL with your own.
@@ -64,11 +64,12 @@
         },
         type: 'circle',
         paint: {
-          'circle-color': '#83e8fc',
+          'circle-color': '#71797E',
           'circle-radius': 3,
           'circle-opacity': 1,
           'circle-stroke-width': 1,
-          'circle-stroke-color': '#0557fa',
+
+
         }
       });
 
@@ -85,8 +86,9 @@
         },
         type: 'circle',
         paint: {
-          'circle-color': 'red',
+          'circle-color': '#2B65EC',
           'circle-radius': 3
+
         }
       });
 
@@ -102,8 +104,8 @@
         },
         type: 'fill',
         paint: {
-          'fill-color': '#fcf683',
-          'fill-opacity': 0.5
+          'fill-color': '#FF0000',
+          'fill-opacity': 0.2
         }
       });
 
